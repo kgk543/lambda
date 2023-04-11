@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "TestConsoleApp": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "dbConnectionString": "Data Source=INBLR3LB2MN9K3\\SQLEXPRESS;Initial Catalog=Test;Integrated Security=True"
+      }
+    }
+  }
+}
