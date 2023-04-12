@@ -1,9 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Microsoft.Data.SqlClient;
+using TestConsoleApp;
 
 Console.WriteLine("Hello, World!");
 var connString = Environment.GetEnvironmentVariable("dbConnectionString");
-
+LocalInit localInit = new LocalInit();
+localInit.init();
 Console.WriteLine(connString);
 
 var sql = "select * from employee";
